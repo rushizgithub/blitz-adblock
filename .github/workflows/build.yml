@@ -19,4 +19,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
            name: compiled-package
-           path: dist/blitz-adblock.zip
+           path: .
