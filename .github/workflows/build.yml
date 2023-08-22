@@ -16,4 +16,7 @@ jobs:
       - run : npm install -g pnpm  
       - run: yarn install
       - run: yarn build
-      - run: pnpm publish
+      - uses: actions/upload-artifact@v3
+        with:
+           name: compiled-package
+           path: dist/blitz-adblock.zip
