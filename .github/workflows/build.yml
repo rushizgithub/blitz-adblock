@@ -3,7 +3,7 @@ name: Build and Compile
 on:
   push:
     branches:
-      - main  # Adjust this branch name as needed
+      - master
 
 jobs:
   build:
